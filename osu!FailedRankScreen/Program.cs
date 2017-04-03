@@ -29,7 +29,9 @@ namespace osu_FailedRankScreen
             Debug.WriteLine("Executing method");
             t.GetMethod("ChangeMode").Invoke(ipo, new object[] { 7 });
 
-            MessageBox.Show("Done!");
+#if !SILENT
+            MessageBox.Show("Done!", "Made by HoLLy");
+#endif
         }
 
         private static void ExitError(string message)
