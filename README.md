@@ -1,3 +1,5 @@
+# Warning: This program is currently outdated, it will not work.
+
 # osu-FailedRankScreen
 Sends osu! to the ranking screen, even when failed. 
 
